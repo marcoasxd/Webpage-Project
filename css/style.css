@@ -6,6 +6,35 @@
 }
 
 /* Especificando a fonte padrão de todo o meu conteúdo */
-body {
+body, button, input, textarea, select {
     font-family: 'Heebo', sans-serif;
+}
+
+body {
+    background-color: #f7f8f7;
+}
+
+/* Navbar */
+header {
+    background-color: white;
+}
+
+header #navbar {
+    display: flex;
+    justify-content: space-between; /* alinhar horizontalmente */
+    align-items: center; /* alinhar verticalmente */
+    padding: 0 2rem; /* ! 1rem = 16px */
+    max-width: 75rem; /* Definir a largura máxima da navbar */
+    margin: 0 auto; /* centralizar a navbar */
+}
+
+header #navbar .nav-brand {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+header #navbar .nav-list {
+    list-style: none;
 }
