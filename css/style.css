@@ -17,6 +17,7 @@ body {
 /* Navbar */
 header {
     background-color: white;
+    height: 5rem;
 }
 
 header #navbar {
@@ -26,15 +27,31 @@ header #navbar {
     padding: 0 2rem; /* ! 1rem = 16px */
     max-width: 75rem; /* Definir a largura máxima da navbar */
     margin: 0 auto; /* centralizar a navbar */
+    height: 5rem;
 }
 
 header #navbar .nav-brand {
     text-decoration: none;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 500;
     color: #333;
 }
 
 header #navbar .nav-list {
     list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 }
+
+header #navbar .nav-list .nav-item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+header #navbar .nav-list .nav-item a:hover {
+    color: #555;
+    transition: color 0.3s;
+} 
