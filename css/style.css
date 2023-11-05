@@ -1,0 +1,11 @@
+/* Limpando as formatações padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Especificando a fonte padrão de todo o meu conteúdo */
+body {
+    font-family: 'Heebo', sans-serif;
+}
